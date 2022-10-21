@@ -1,0 +1,14 @@
+{
+        "recommendations": [
+            "lextudio.restructuredtext-pack",
+            "yzane.markdown-pdf",
+            "james-yu.latex-workshop",
+            "dendron.dendron-paste-image",
+            "jebbs.plantuml",
+            "hediet.vscode-drawio",
+            "theumletteam.umlet",
+            "bierner.markdown-mermaid",
+            "shuworks.vscode-table-formatter",
+            "dotjoshjohnson.xml"
+        ]
+}

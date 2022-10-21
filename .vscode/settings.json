@@ -1,0 +1,9 @@
+{
+    "pasteImage.encodePath": "none",
+    "pasteImage.path": "${currentFileDir}/_figures",
+    "pasteImage.prefix": ".. figure:: ",
+
+    "plantuml.jarArgs": [
+    ],
+    "esbonio.sphinx.confDir": ""
+}
