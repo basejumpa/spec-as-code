@@ -1,0 +1,7 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "plantuml"
+brew "python@3.10"
+cask "drawio"
+cask "visual-studio-code"
