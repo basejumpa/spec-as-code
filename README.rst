@@ -33,6 +33,14 @@ Initializing:
     $ git commit -m "Use template from https://github.com/basejumpa/spec-as-code.git"  # Create first commit (2/2)
     $ scoop import scoopfile.json                                                      # Install tools
     $ pipenv install                                                                   # Install python packages
+    
+In case you're luckily sitting in front of a Mac replace the line starting with :code:`scoop` by :code:`brew bundle install` .
+
+Having trouble with either `scoop <https://scoop.sh>`_ or `brew <https://brew.sh>`_ command? Then you don`t have the de-facto-standard package managers installed. You fix it by executing the following line:
+
+* Windows: :code:`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ; irm get.scoop.sh | iex` 
+
+* Mac: :code:`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 Work loop:
 
