@@ -24,15 +24,15 @@ Initializing:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/basejumpa/spec-as-code.git                          # Clone the repository
-    $ rm -rf spec-as-code/.git                                                         # Strip down to working copy 
-    $ mv spec-as-code my-subject                                                       # Baptize own project
-    $ cd my-subject                                                                    # Enter root dir
-    $ git init .                                                                       # Initialize new git repository
-    $ git add .                                                                        # Create first commit (1/2)
-    $ git commit -m "Use template from https://github.com/basejumpa/spec-as-code.git"  # Create first commit (2/2)
-    $ scoop import scoopfile.json                                                      # Install tools
-    $ pipenv install                                                                   # Install python packages
+    git clone https://github.com/basejumpa/spec-as-code.git                          # Clone the repository
+    rm -rf spec-as-code/.git                                                         # Strip down to working copy 
+    mv spec-as-code my-subject                                                       # Baptize own project
+    cd my-subject                                                                    # Enter root dir
+    git init .                                                                       # Initialize new git repository
+    git add .                                                                        # Create first commit (1/2)
+    git commit -m "Use template from https://github.com/basejumpa/spec-as-code.git"  # Create first commit (2/2)
+    scoop import scoopfile.json                                                      # Install tools
+    pipenv install                                                                   # Install python packages
     
 In case you're luckily sitting in front of a Mac replace the line starting with :code:`scoop` by :code:`brew bundle install` .
 
@@ -51,9 +51,9 @@ Use the internal terminal of VScode and proceed:
 
 .. code-block:: bash
 
-    $ pipenv shell                                                                     # Use the pipenv python environment defined by Pipfile
-    $ sphinx-autobuild . build/html                                                    # Make sphinx watching for changes and rebuild automatically
-    $ chrome http://127.0.0.1:8000                                                     # Open Chrome and watch the output
+    pipenv shell                                                                     # Use the pipenv python environment defined by Pipfile
+    sphinx-autobuild . build/html                                                    # Make sphinx watching for changes and rebuild automatically
+    chrome http://127.0.0.1:8000                                                     # Open Chrome and watch the output
 
 
 Attributions
